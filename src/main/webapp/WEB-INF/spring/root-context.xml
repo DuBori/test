@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+	
+		<!-- 스프링 작업시 설정 파일을 설정하는 공간 ==> 주로 DB 연동  -->
+		
+		<!-- 1. 외부 properties 파일을 읽어들일 수 있게 설정 작업
+			 외부의 프로퍼티 파일에 저장된 정보를 스프링 설정 파일에 사용할 수 있게하는 태그
+		 -->
+		<context:property-placeholder
+		location="classpath:/config/*.properties"
+		/>
+		<!-- 1. 외부 properties 파일을 읽어들일 수 있게 설정 작업
+			 외부의 프로퍼티 파일에 저장된 정보를 스프링 설정 파일에 사용할 수 있게하는 태그
+		 -->
+		<bean name="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		 	<property name="driverClassName" value="${jdbc.driver}"></property>
+		 	<property name="url" value="${jdbc.url}"></property>
+		 	<property name="username" value="${jdbc.username}" />
+	        <property name="password" value="${jdbc.password}" />
+		 </bean>
+		 
+		 <!-- 2. SqlSessionFactoryBean 클래스 설정.  -->
+		 <bean name="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+			<property name="dataSource" ref="dataSource"/>
+			<property name="mapperLocations" value="classpath:/mapper/*.xml"/>
+			<property name="configLocation" value="classpath:/mybatis-config.xml"></property>
+		 </bean>
+		  
+		 <!--3. SqlSessionTemplate 클래스 설정   
+		 sqlSessionFactory가 연결 개체라고 보면됨.
+		 데이터베이스와의 연결과 SQL의 실행에 대한 모든 것을 가진 가장 중요한 객체이다.
+		 
+		 bean 객체 생성 Inject 객체 생성 sqlsessionFactiory 참조 받아서 db 연결과 mapper 이용가능
+		 -->
+		 <bean name="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
+			<constructor-arg ref="sqlSessionFactory"></constructor-arg>
+		</bean>	
+</beans>
