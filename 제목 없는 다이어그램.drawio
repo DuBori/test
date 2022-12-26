@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-26T07:14:56.625Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="wFTwAw6haXs6EhybSzrr" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-26T07:29:33.820Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="w3VXQtrF_jnqe72Q-_jN" version="20.7.4" type="github">
   <diagram name="Page-1" id="8ce9d11a-91a2-4d17-14d8-a56ed91bf033">
-    <mxGraphModel dx="2100" dy="1262" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="4200" dy="2524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -416,6 +416,229 @@
         </mxCell>
         <mxCell id="4_AV6_FORpatrc1L-18p-255" value="로그인 성공시" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1220" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-326" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" edge="1" parent="1" target="4_AV6_FORpatrc1L-18p-328">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="1260" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-327" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4_AV6_FORpatrc1L-18p-328" target="4_AV6_FORpatrc1L-18p-330">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="1390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="1340" />
+              <mxPoint x="280" y="1340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-328" value="메인 페이지" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-329" value="관리자 화면" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-330" value="피크닉 관리" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-331" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="1330" as="sourcePoint" />
+            <mxPoint x="280" y="1470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="1470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-332" value="예약 관리" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1430" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-333" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="1460" as="sourcePoint" />
+            <mxPoint x="280" y="1615" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="1615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-334" value="회원 관리" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-335" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="4_AV6_FORpatrc1L-18p-336">
+          <mxGeometry x="0.4669" y="-50" relative="1" as="geometry">
+            <mxPoint x="240" y="1610" as="sourcePoint" />
+            <mxPoint x="280" y="1840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="1810" />
+            </Array>
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-336" value="쿠폰 관리" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1770" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-342" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4_AV6_FORpatrc1L-18p-330">
+          <mxGeometry x="1" y="163" relative="1" as="geometry">
+            <mxPoint x="410" y="1480" as="sourcePoint" />
+            <mxPoint x="510" y="1340" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="160" y="133" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-396" value="피크닉 목록" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-407" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry x="0.4669" y="-50" relative="1" as="geometry">
+            <mxPoint x="240" y="1800" as="sourcePoint" />
+            <mxPoint x="280" y="1965" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="1965" />
+            </Array>
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-408" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry x="0.4669" y="-50" relative="1" as="geometry">
+            <mxPoint x="240" y="1960" as="sourcePoint" />
+            <mxPoint x="280" y="2070" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="2070" />
+            </Array>
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-409" value="문의 관리" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1910" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-410" value="리뷰 관리" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2020" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-411" value="게시판 관리" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-412" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry x="0.4669" y="-50" relative="1" as="geometry">
+            <mxPoint x="240" y="2050" as="sourcePoint" />
+            <mxPoint x="280" y="2160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="2160" />
+            </Array>
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-413" value="피크닉 등록" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-414" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="4_AV6_FORpatrc1L-18p-413">
+          <mxGeometry x="1" y="163" relative="1" as="geometry">
+            <mxPoint x="450" y="1340" as="sourcePoint" />
+            <mxPoint x="520" y="1350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="1340" />
+              <mxPoint x="480" y="1430" />
+            </Array>
+            <mxPoint x="160" y="133" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-415" value="피크닉 관리" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-416" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="4_AV6_FORpatrc1L-18p-415">
+          <mxGeometry x="1" y="163" relative="1" as="geometry">
+            <mxPoint x="480" y="1420" as="sourcePoint" />
+            <mxPoint x="540" y="1550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="1530" />
+            </Array>
+            <mxPoint x="160" y="133" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-417" value="회원 목록" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-418" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="4_AV6_FORpatrc1L-18p-417">
+          <mxGeometry x="1" y="163" relative="1" as="geometry">
+            <mxPoint x="400" y="1600" as="sourcePoint" />
+            <mxPoint x="480" y="1640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="1600" />
+              <mxPoint x="440" y="1640" />
+            </Array>
+            <mxPoint x="160" y="133" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-419" value="회원 등록" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1690" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-420" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry x="1" y="163" relative="1" as="geometry">
+            <mxPoint x="440" y="1620" as="sourcePoint" />
+            <mxPoint x="510" y="1730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="1690" />
+              <mxPoint x="440" y="1730" />
+            </Array>
+            <mxPoint x="160" y="133" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-421" value="쿠폰 목록" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1800" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-422" value="쿠폰 등록" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1890" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-423" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;" edge="1" parent="1">
+          <mxGeometry x="1" y="163" relative="1" as="geometry">
+            <mxPoint x="400" y="1810" as="sourcePoint" />
+            <mxPoint x="510" y="1930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="1810" />
+              <mxPoint x="440" y="1930" />
+              <mxPoint x="510" y="1930" />
+            </Array>
+            <mxPoint x="160" y="133" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-426" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="4_AV6_FORpatrc1L-18p-421">
+          <mxGeometry x="1" y="163" relative="1" as="geometry">
+            <mxPoint x="400" y="1810" as="sourcePoint" />
+            <mxPoint x="510" y="1850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="1810" />
+              <mxPoint x="440" y="1840" />
+            </Array>
+            <mxPoint x="160" y="133" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-429" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;" edge="1" parent="1">
+          <mxGeometry x="1" y="163" relative="1" as="geometry">
+            <mxPoint x="400" y="2160" as="sourcePoint" />
+            <mxPoint x="510" y="2280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="2160" />
+              <mxPoint x="440" y="2280" />
+              <mxPoint x="510" y="2280" />
+            </Array>
+            <mxPoint x="160" y="133" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-430" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry x="1" y="163" relative="1" as="geometry">
+            <mxPoint x="400" y="2160" as="sourcePoint" />
+            <mxPoint x="510" y="2190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="2160" />
+              <mxPoint x="440" y="2190" />
+            </Array>
+            <mxPoint x="160" y="133" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-431" value="게시판 등록" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="510" y="2240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AV6_FORpatrc1L-18p-432" value="게시판 목록" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="510" y="2150" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
